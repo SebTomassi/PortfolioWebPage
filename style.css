@@ -1,0 +1,58 @@
+body {background-color: rgba(239, 112, 83, 0.500);}
+
+.imagewrapper {
+  text-align: center
+}
+
+  img {
+    width: 75%;
+    max-width: 400px;
+    height:auto;
+    text-align: center;
+}
+
+hr {
+  padding: 5px;
+  background-color:#285A84;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-size: 56px;
+  color:#285A84;
+  text-align: center
+}
+
+
+h2 {
+  font-family: 'Montserrat';
+  font-size: 42px;
+  color:#285A84;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-size: 26px;
+  color:#285A84;
+}
+
+ul {
+  font-family: 'Din Next Light';
+  font-size: 18px;
+  color: darkslategrey;
+}
+ol {
+  font-family: 'Din Next Light';
+  font-size: 18px;
+  color: darkslategrey;
+}
+
+p {
+  font-family: 'Din Next Light';
+  font-size: 18px;
+  color: darkslategrey;
+}
+
+a:link { color: rgb(0, 89, 255)}
+a:visited { color: rgb(161, 0, 161)}
+a:hover { color: rgb(4, 226, 4)}
