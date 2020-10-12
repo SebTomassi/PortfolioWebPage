@@ -51,6 +51,7 @@ p {
   font-family: 'Din Next Light';
   font-size: 18px;
   color: darkslategrey;
+  margin: 10px
 }
 
 a:link { color: rgb(0, 89, 255)}
