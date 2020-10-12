@@ -1,4 +1,12 @@
+/*────────────────── 
+       background
+──────────────────*/
+
 body {background-color: rgba(239, 112, 83, 0.500);}
+
+/*────────────────── 
+image (centered and sized)
+──────────────────*/
 
 .imagewrapper {
   text-align: center
@@ -10,12 +18,16 @@ body {background-color: rgba(239, 112, 83, 0.500);}
     height:auto;
     text-align: center;
 }
-
+/*────────────────── 
+   horizontal rule
+──────────────────*/
 hr {
   padding: 5px;
   background-color:#285A84;
 }
-
+/*────────────────── 
+  styled headers
+──────────────────*/
 h1 {
   font-family: 'Montserrat';
   font-size: 56px;
@@ -35,7 +47,9 @@ h3 {
   font-size: 26px;
   color:#285A84;
 }
-
+/*────────────────── 
+  styled ul/ol
+──────────────────*/
 ul {
   font-family: 'Din Next Light';
   font-size: 18px;
@@ -46,14 +60,18 @@ ol {
   font-size: 18px;
   color: darkslategrey;
 }
-
+/*────────────────── 
+  styled paragraphs
+──────────────────*/
 p {
   font-family: 'Din Next Light';
   font-size: 18px;
   color: darkslategrey;
   margin: 10px
 }
-
+/*────────────────── 
+  styled hyperlinks
+──────────────────*/
 a:link { color: rgb(0, 89, 255)}
 a:visited { color: rgb(161, 0, 161)}
 a:hover { color: rgb(4, 226, 4)}
