@@ -1,0 +1,173 @@
+body {background-color: rgba(185, 185, 185, 0.5);}
+
+header {
+  background-color: #285A84;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 52px;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+header nav ul li a {
+  font-family: Montserrat;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px 0 0;
+}
+
+
+header nav ul li a:link {
+    color: #fff
+}
+header nav ul li a:hover {
+    color: #000000;
+  }
+
+
+header nav ul li:last-child a {
+  margin-right: 0;
+}
+
+@media all and (min-width: 600px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  header h1 {
+    font-size: 42px;
+    margin: 14px 0;
+    padding-top: 6px;
+  }
+  
+  header nav {
+    margin-top: 14px;
+  }
+
+}
+
+
+.imagewrapper {
+  text-align: center
+}
+
+  img {
+    width: 75%;
+    max-width: 400px;
+    height:auto;
+    text-align: center;
+}
+
+hr {
+  padding: 5px;
+  background-color:#285A84;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-size: 56px;
+  color:#285A84;
+  text-align: center
+}
+
+
+h2 {
+  font-family: 'Montserrat';
+  font-size: 42px;
+  color:#285A84;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-size: 26px;
+  color:#285A84;
+}
+
+ul {
+  font-family: 'Din Next Light';
+  font-size: 18px;
+  color: darkslategrey;
+}
+ol {
+  font-family: 'Din Next Light';
+  font-size: 18px;
+  color: darkslategrey;
+}
+
+p {
+  font-family: 'Din Next Light';
+  font-size: 18px;
+  color: darkslategrey;
+}
+
+main a:link { color: rgb(0, 89, 255)}
+main a:visited { color: rgb(161, 0, 161)}
+main a:hover { color: rgb(4, 226, 4)}
+
+.group img {
+  width: 100%;
+}
+
+/* Mobile First */
+
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+/* Desktop */
+
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 15%;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+}
+
+/* ---  Contact Form Design --- */
+
+form {
+  padding-right: 6px;
+  
+}
+
+form input, 
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
+}
